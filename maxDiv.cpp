@@ -9,8 +9,16 @@ int MCD(int a, int b){
 
     return MCD(b, a % b);
 
+}
 
-    /*
+int main(){
+
+cout << MCD(156,120) << endl;
+
+
+}
+
+ /*
     
      Este programa funciona debido a que se utiliza el algoritmo de EUCLIDES:
      este consiste en:
@@ -44,13 +52,3 @@ int MCD(int a, int b){
 
     
     */
-
-
-}
-
-int main(){
-
-cout << MCD(156,120) << endl;
-
-
-}
